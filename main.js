@@ -1,4 +1,7 @@
-( () => {
+import BotaoConclui from './components/concluiTarefa.js'
+import BotaoDeleta from './components/deletaTarefa.js'
+
+
   const criarTarefa = (evento) => {
 
   evento.preventDefault()
@@ -23,6 +26,3 @@
 const novaTarefa = document.querySelector('[data-form-button]');
 
 novaTarefa.addEventListener('click', criarTarefa)
-
-
-})()

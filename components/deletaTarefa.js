@@ -16,3 +16,5 @@ const deletarTarefa = (evento) => {
   
   return botaoDeleta
 }
+
+export default BotaoDeleta
